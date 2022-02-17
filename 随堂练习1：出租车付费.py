@@ -8,6 +8,5 @@ if int(s)!=s:
 #计算金额
 if s<=3:
     m=10 
-else:  
-                     
+else:                       
 print(s,"千米，","付费",m,"元。")
