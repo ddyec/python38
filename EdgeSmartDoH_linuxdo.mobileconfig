@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadIdentifier</key>
+	<string>top.1molchuan.edgesmartdoh.linuxdo.profile</string>
+	<key>PayloadUUID</key>
+	<string>269437B2-F66A-43B1-BA52-A5BFC880D042</string>
+	<key>PayloadDisplayName</key>
+	<string>Edge Smart DoH (linuxdo)</string>
+	<key>PayloadDescription</key>
+	<string>Sets iOS system DNS to Edge Smart DoH over HTTPS. This profile is unsigned.</string>
+	<key>PayloadOrganization</key>
+	<string>User-created local DNS configuration</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>top.1molchuan.edgesmartdoh.linuxdo.dns</string>
+			<key>PayloadUUID</key>
+			<string>2BCB15B0-03E0-4E3A-BCBE-A4AC7892F436</string>
+			<key>PayloadDisplayName</key>
+			<string>Edge Smart DoH</string>
+			<key>PayloadDescription</key>
+			<string>System-wide encrypted DNS using https://edge.1molchuan.top/linuxdo</string>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://edge.1molchuan.top/linuxdo</string>
+				<key>AllowFailover</key>
+				<false/>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
